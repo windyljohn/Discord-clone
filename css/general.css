@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* Does not work on Safari */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "gg sans", sans-serif;
+  overflow-x: hidden;
+  line-height: 1.15;
+  text-rendering: optimizeLegibility;
+  color: #000;
+  background: #fff;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+/* ///////////////////////
+// FONTS
+////////////////////////*/
+
+@font-face {
+  font-family: ABC Ginto Nord;
+  src: url(../fonts/Ginto-Nord-700.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ABC Ginto Nord;
+  src: url(../fonts/Ginto-Nord-600.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: gg sans;
+  src: url(../fonts/ggsans-Normal.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: gg sans;
+  src: url(../fonts/ggsans-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: gg sans;
+  src: url(../fonts/ggsans-Semibold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: gg sans;
+  src: url(../fonts/ggsans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: gg sans;
+  src: url(../fonts/ggsans-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+.container {
+  max-width: 126rem;
+  padding: 0 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 2rem;
+}
+
+.heading-primary {
+  font-family: "ABC Ginto Nord", sans-serif;
+  font-size: 5.6rem;
+  font-weight: bold;
+  line-height: 0.95;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+}
+
+.heading-secondary {
+  color: #23272a;
+  font-size: 4.8rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.btn {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2.8rem;
+  margin-top: 2.4rem;
+}
+
+/* ///////////////////////
+// HELPER FUNCTION
+////////////////////////*/
+
+.margin-right-24 {
+  margin-right: 2.4rem !important;
+}
+
+.grey--background {
+  background-color: #f6f6f6;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.padding-bottom-80 {
+  padding-bottom: 8rem !important;
+}
+
+.initial-highlight {
+  background-color: rgba(79, 84, 92, 0.16);
+  border-radius: 4px;
+}

@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your Place to Talk and Hang Out" />
+
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
+    <link rel="icon" href="img/favicon/discord-logo.png" />
+
+    <script defer src="js/script.js"></script>
+
+    <title>Discord Clone | Your Place to Talk and Hang Out</title>
+  </head>
+
+  <body>
+    <div class="body-wrapper">
+      <section class="section-hero">
+        <div class="navigation container">
+          <nav class="main-nav">
+            <a class="discord" href="#"
+              ><img
+                src="img/discord-logo-white.svg"
+                class="discord-logo"
+                alt="discord logo white"
+            /></a>
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="#">Download</a></li>
+              <li><a class="main-nav-link" href="#">Nitro</a></li>
+              <li><a class="main-nav-link" href="#">Discover</a></li>
+              <li><a class="main-nav-link" href="#">Safety</a></li>
+              <li><a class="main-nav-link" href="#">Support</a></li>
+              <li><a class="main-nav-link" href="#">Blog</a></li>
+              <li><a class="main-nav-link" href="#">Careers</a></li>
+            </ul>
+            <div class="btn-container">
+              <a class="btn-login" href="#">Login</a>
+              <div class="menu-mobile-icon">
+                <img src="img/menu-mobile.svg" alt="mobile menu icon" />
+              </div>
+            </div>
+          </nav>
+          <div class="mobile-nav-container hidden">
+            <div class="backdrop"></div>
+            <div class="mobile-links">
+              <img
+                class="discord-logo-black"
+                src="img/discord-logo-black.svg"
+                alt="discord logo black"
+              />
+              <div class="mobile-spacer"></div>
+              <ul class="mobile-nav-list">
+                <li><a class="mobile-nav-link active" href="#">Home</a></li>
+                <li><a class="mobile-nav-link" href="#">Download</a></li>
+                <li><a class="mobile-nav-link" href="#">Nitro</a></li>
+                <li><a class="mobile-nav-link" href="#">Discover</a></li>
+                <li class="safety-marker">
+                  <a class="mobile-nav-link" href="#">Safety</a>
+                  <img
+                    class="arrow-icon"
+                    src="img/arrow-icon.svg"
+                    alt="arrow icon"
+                  />
+                </li>
+                <li><a class="mobile-nav-link" href="#">Support</a></li>
+                <li><a class="mobile-nav-link" href="#">Blog</a></li>
+                <li><a class="mobile-nav-link" href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="mobile-safety inactive">
+              <div class="safety-header">
+                <button class="back-button">
+                  <img class="back-arrow" src="img/arrow-icon.svg" />
+                  <span class="back-text">Back</span>
+                </button>
+              </div>
+              <ul>
+                <li>
+                  <div class="section-name">Safety Center</div>
+                  <ul class="safety-list">
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text">Overview</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="group-spacer"></div>
+                <li>
+                  <div class="section-name">Controlling Your Experience</div>
+                  <ul class="safety-list">
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Four steps to a super safe account</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Four steps to a super safe server</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Role of administrators and moderators on
+                          Discord</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Reporting problems to Discord</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link"
+                        ><span class="safety-text"
+                          >Mental health on Discord</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link"
+                        ><span class="safety-text"
+                          >Age-Restricted Content on Discord</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Tips against spam and hacking</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="group-spacer"></div>
+                <li>
+                  <div class="section-name">Parents & Educators</div>
+                  <ul class="safety-list">
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text">What is Discord?</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Discord's commitment to a safe and trusted
+                          experience</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Helping your teen stay safe on Discord</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Talking about online safety with your teen</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Answering parents' and educators' top questions</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >If your teen encounters an issue</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Working with CARU to protect users on Discord</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <div class="group-spacer"></div>
+                <li>
+                  <div class="section-name">How We Enforce Rules</div>
+                  <ul class="safety-list">
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text">Our policies</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text">Enforcing our rules</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text">How we investigate</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text">What actions we take</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >How you can appeal our actions</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Discord's Transparency Report</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="safety-link">
+                        <span class="safety-text"
+                          >Working with law enforcement</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-nav-buttons">
+              <div class="close-mobile-icon">
+                <img src="img/close-icon.svg" />
+              </div>
+              <div class="mobile-footer">
+                <div class="mobile-btn-container">
+                  <a class="mobile-btn-cta" href="#">
+                    <img
+                      src="img/cta-download-white.svg"
+                      alt="download icon white"
+                    />Download for Mac</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero container">
+          <div class="hero-body">
+            <div class="hero-text-box">
+              <h1 class="heading-primary">Imagine a place...</h1>
+              <p class="hero-description">
+                ...where you can belong to a school club, a gaming group, or a
+                worldwide art community. Where just you and a handful of friends
+                can spend time together. A place that makes it easy to talk
+                every day and hang out more often.
+              </p>
+            </div>
+            <div class="cta-wrapper">
+              <a href="#" class="btn btn--left margin-right-24"
+                ><img
+                  class="cta-download"
+                  src="/img/cta-download.svg"
+                  alt="download icon black"
+                />
+                <p>Download for Mac</p>
+              </a>
+              <a href="#" class="btn btn--right"
+                >Open Discord in your browser</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-img-container">
+          <img
+            src="img/hero-background.svg"
+            class="background-img"
+            alt="background image"
+          />
+          <img
+            src="img/hero-img-1.svg"
+            class="foreground-left"
+            alt="left-image"
+          />
+          <img
+            src="img/hero-img-2.svg"
+            class="foreground-right"
+            alt="right-image"
+          />
+        </div>
+      </section>
+      <section class="section-content">
+        <div class="wrapper">
+          <div class="content container">
+            <img
+              class="content-img"
+              src="img/content-img-1.svg"
+              alt="chat image discord"
+            />
+            <div class="content-text-box">
+              <h2 class="heading-secondary">
+                Create an invite-only place where you belong
+              </h2>
+              <p class="content-text">
+                Discord servers are organized into topic-based channels where
+                you can collaborate, share, and just talk about your day without
+                clogging up a group chat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper grey--background">
+          <div class="content container">
+            <div class="content-text-box content--left">
+              <h2 class="heading-secondary">Where hanging out is easy</h2>
+              <p class="content-text">
+                Grab a seat in a voice channel when you’re free. Friends in your
+                server can see you’re around and instantly pop in to talk
+                without having to call.
+              </p>
+            </div>
+            <img
+              class="content-img content--right"
+              src="img/content-img-2.svg"
+              alt="Friends server image"
+            />
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="content container">
+            <img
+              class="content-img"
+              src="img/content-img-3.svg"
+              alt="Community image"
+            />
+            <div class="content-text-box">
+              <h2 class="heading-secondary">From few to a fandom</h2>
+              <p class="content-text">
+                Get any community running with moderation tools and custom
+                member access. Give members special powers, set up private
+                channels, and more.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper grey--background">
+          <div class="content container padding-bottom-80">
+            <div class="content-text-box-center">
+              <h2 class="heading-secondary">Reliable tech for staying close</h2>
+              <p class="content-text">
+                Low-latency voice and video feels like you’re in the same room.
+                Wave hello over video, watch friends stream their games, or
+                gather up and have a drawing session with screen share.
+              </p>
+            </div>
+            <img
+              class="content-img-center"
+              src="img/content-img-4.svg"
+              alt="Just chillin image"
+            />
+          </div>
+        </div>
+        <div class="section-cta grey--background">
+          <div class="cta-container">
+            <div class="sparkles-container">
+              <img src="img/sparkles-img.svg" alt="sparkles background" />
+            </div>
+            <h4 class="cta-heading">Ready to start your journey?</h4>
+            <a class="cta-btn" href="#">
+              <img
+                class="cta-download"
+                src="img/cta-download.svg"
+                alt="download icon white"
+              />
+              <p>Download for Mac</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer class="section-footer">
+        <div class="footer container">
+          <div class="info-col">
+            <div class="language">
+              <div class="dropdown-container">
+                <div class="dropdown hidden">
+                  <div class="dropdown-list">
+                    <div class="dropdown-item initial-highlight">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-1.png" />
+                        <p>български</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-2.png" />
+                        <p>Čeština</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-3.png" />
+                        <p>Dansk</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-4.png" />
+                        <p>Deutsch</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-5.png" />
+                        <p>Ελληνικά</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-6.png" />
+                        <p>English, USA</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-7.png" />
+                        <p>Español</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-8.png" />
+                        <p>Soumi</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-9.png" />
+                        <p>Français</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-10.png" />
+                        <p>हिंदी</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-11.png" />
+                        <p>Hrvatski</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-12.png" />
+                        <p>Magyar</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-13.png" />
+                        <p>Italiano</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-14.png" />
+                        <p>日本語</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-15.png" />
+                        <p>한국어</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-16.png" />
+                        <p>Lietuviškai</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-17.png" />
+                        <p>Nederlands</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-18.png" />
+                        <p>Norwegian</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-19.png" />
+                        <p>Polski</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-20.png" />
+                        <p>Português do Brasil</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-21.png" />
+                        <p>Română</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-22.png" />
+                        <p>Русский</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-23.png" />
+                        <p>Svenska</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-24.png" />
+                        <p>ไทย</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-25.png" />
+                        <p>Türkçe</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-26.png" />
+                        <p>Українська</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-27.png" />
+                        <p>Tiếng Việt</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-28.png" />
+                        <p>中文</p>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="local-container">
+                        <img class="flags" src="img/flags/flag-29.png" />
+                        <p>繁體中文</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="selector-container" role="button">
+                  <div class="local-container">
+                    <img
+                      class="flags"
+                      src="img/flags/flag-6.png"
+                      alt="flags icon"
+                    />
+                    <p>English, USA</p>
+                  </div>
+                  <img
+                    class="dropdown-arrow"
+                    src="img/dropdown-arrow.svg"
+                    alt="dropdown arrow icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="socials-col">
+              <a href="#">
+                <img
+                  class="socials-logo"
+                  src="img/logo-socials/logo-twitter.svg"
+                  alt="Twitter icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="socials-logo"
+                  src="img/logo-socials/logo-instagram.svg"
+                  alt="Instagram icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="socials-logo"
+                  src="img/logo-socials/logo-facebook.svg"
+                  alt="Facebook icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="socials-logo"
+                  src="img/logo-socials/logo-youtube.svg"
+                  alt="Youtube icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="socials-logo"
+                  src="img/logo-socials/logo-tiktok.svg"
+                  alt="Tiktok icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="spacer"></div>
+          <div class="product-col">
+            <p class="footer-heading">Product</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Download</a></li>
+              <li><a class="footer-link" href="#">Nitro</a></li>
+              <li><a class="footer-link" href="#">Status</a></li>
+              <li><a class="footer-link" href="#">App Directory</a></li>
+            </ul>
+          </div>
+          <div class="company-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About</a></li>
+              <li><a class="footer-link" href="#">Jobs</a></li>
+              <li><a class="footer-link" href="#">Brand</a></li>
+              <li><a class="footer-link" href="#">Newsroom</a></li>
+              <li><a class="footer-link" href="#">Fall Release</a></li>
+            </ul>
+          </div>
+          <div class="resources-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">College</a></li>
+              <li><a class="footer-link" href="#">Support</a></li>
+              <li><a class="footer-link" href="#">Safety</a></li>
+              <li><a class="footer-link" href="#">Blog</a></li>
+              <li><a class="footer-link" href="#">Feedback</a></li>
+              <li><a class="footer-link" href="#">StreamKit</a></li>
+              <li><a class="footer-link" href="#">Creators</a></li>
+              <li><a class="footer-link" href="#">Community</a></li>
+              <li><a class="footer-link" href="#">Developers</a></li>
+              <li><a class="footer-link" href="#">Gaming</a></li>
+              <li>
+                <a class="footer-link" href="#">Official 3rd Party Merch</a>
+              </li>
+            </ul>
+          </div>
+          <div class="policies-col">
+            <p class="footer-heading">Policies</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Terms</a></li>
+              <li><a class="footer-link" href="#">Privacy</a></li>
+              <li><a class="footer-link" href="#">Cookie Settings</a></li>
+              <li><a class="footer-link" href="#">Guidelines</a></li>
+              <li><a class="footer-link" href="#">Acknowledgements</a></li>
+              <li><a class="footer-link" href="#">Licenses</a></li>
+              <li><a class="footer-link" href="#">Company Information</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-cta container">
+          <div class="footer-wrapper">
+            <a class="discord" href="#"
+              ><img
+                src="img/discord-logo-white.svg"
+                class="discord-logo"
+                alt="discord logo white"
+            /></a>
+            <a class="footer-btn" href="#">Sign up</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
